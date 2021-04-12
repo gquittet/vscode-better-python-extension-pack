@@ -1,0 +1,27 @@
+{
+    "name": "vscode-better-python-extension-pack",
+    "displayName": "Better Python Extension Pack",
+    "description": "VSCode extension pack to improve your Python development workflow.",
+    "publisher": "gquittet",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:gquittet/vscode-better-python-extension-pack.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gquittet/vscode-better-python-extension-pack/issues",
+        "email": "guillaume.quittet@gmail.com"
+    },
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "littlefoxteam.vscode-python-test-adapter",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+    ]
+}
